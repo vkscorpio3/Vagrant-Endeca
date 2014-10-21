@@ -41,9 +41,6 @@ if  ! grep -qe "^export ENDECA_TOOLS_ROOT=" "/home/vagrant/.bash_profile"; then
 	 && echo "export PATH=/usr/java/jdk1.7.0_72/bin:$PATH" >> /home/vagrant/.bash_profile
 fi
 
-# jdk
-# rpm -Uvh /vagrant/software/jdk-7u72-linux-x64.rpm
-
 # directories
 mkdir -p /usr/local/endeca/Apps
 chmod -R 755 /usr/local/endeca
