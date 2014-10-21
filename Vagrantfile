@@ -4,7 +4,7 @@
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 
-ENDECA11_1_PRIVATE_IP = "192.168.50.9"
+ENDECA11_1_PRIVATE_IP = "192.168.77.2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
