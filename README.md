@@ -49,13 +49,13 @@ The scripts will:
 - install endeca
 - install services for controlling endeca
 
-To get a shell inside the endeca vm:
+To get a shell inside the endeca11_1 vm:
 
-`$ vagrant ssh endeca`
+`$ vagrant ssh endeca11_1`
 
 Key Information:
 
-- The endeca vm has a private ip of 192.168.77.2
+- The endeca11_1 vm has a private ip of 192.168.77.2
 - Endeca is installed at `/usr/local/endeca`
 - Control endeca services with:
   - `service endecaplatform start|stop`
