@@ -15,7 +15,7 @@ exec sudo -u vagrant /bin/sh - << eof
 	export ENDECA_TOOLS_ROOT=/usr/local/endeca/ToolsAndFrameworks/11.1.0
 	export ENDECA_TOOLS_CONF=/usr/local/endeca/ToolsAndFrameworks/11.1.0/server/workspace
 
-	unzip -n /vagrant/software/endeca11_1/V46389-01.zip -d /vagrant/software
+	unzip -n /vagrant/software/endeca11_1/V46389-01.zip -d /vagrant/software/endeca11_1
 
 	/vagrant/software/endeca11_1/cd/Disk1/install/silent_install.sh /vagrant/scripts/endeca11_1/endeca_toolsandframeworks_silent_response.rsp \
 		ToolsAndFrameworks /usr/local/endeca/ToolsAndFrameworks admin
