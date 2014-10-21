@@ -8,8 +8,8 @@ You need virtualization software and a way to control it.
 
 ### Get the latest versions of VirtualBox and Vagrant
 
-VirtualBox: https://www.virtualbox.org/wiki/Downloads
-Vagrant: http://www.vagrantup.com/downloads.html
+- VirtualBox: https://www.virtualbox.org/wiki/Downloads
+- Vagrant: http://www.vagrantup.com/downloads.html
 
 ### Get the vagrant-vbguest plugin
 
@@ -19,11 +19,11 @@ After installing vagrant:
 
 ## Check out the code from git:
 
-`$ git clone https://github.com/kpath/BigLots.git`
+`$ git clone https://github.com/kpath/Vagrant-Endeca.git`
 
 ## Download required third party software
 
-### ATG 11.1
+### Endeca 11.1
 
 - Go to [Oracle Edelivery](http://edelivery.oracle.com)
 - Accept the restrictions
